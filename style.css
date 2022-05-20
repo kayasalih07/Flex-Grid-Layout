@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.container {
+  color: white;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.32%;
+}
+.col-6 {
+  width: 49.98%;
+}
+.col-8 {
+  width: 66.64%;
+}
+.col-12 {
+  width: 100%;
+}
+
+.logo {
+  background-color: aqua;
+  padding: 1rem;
+}
+.menu {
+  background-color: skyblue;
+  padding: 1rem;
+}
+.banner {
+  background-color: red;
+  padding: 4rem;
+}
+.bolum1 {
+  background-color: yellowgreen;
+  height: calc(100vh - 330px);
+  border: 1px solid grey;
+}
+.bolum2 {
+  background-color: tomato;
+  padding: 1rem;
+  border: 1px solid grey;
+}
+.footer {
+  background-color: violet;
+  padding: 2rem;
+}
